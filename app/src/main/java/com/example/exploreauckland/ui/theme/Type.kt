@@ -1,6 +1,9 @@
 package com.example.exploreauckland.ui.theme
 
 import androidx.compose.material3.Typography
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
@@ -10,7 +13,7 @@ import com.example.exploreauckland.R
 
 // Fonts to be used
 val Bangers = FontFamily(
-    Font(R.font.bangers_regular)
+    Font(R.font.bangers_regular, weight = FontWeight.Normal)
 )
 val Alegreya = FontFamily(
     Font(R.font.alegreya_regular)
@@ -34,6 +37,10 @@ val ExploreAucklandTypography = Typography(
         fontSize = 45.sp,
         lineHeight = 52.sp,
         letterSpacing = 0.sp,
+        shadow = Shadow(
+            color = Color.Black,
+            offset = Offset(x = 8.0f, y = 8.0f)
+        )
     ),
     displaySmall = TextStyle(
         fontFamily = brandFont,
@@ -41,6 +48,10 @@ val ExploreAucklandTypography = Typography(
         fontSize = 36.sp,
         lineHeight = 44.sp,
         letterSpacing = 0.sp,
+        shadow = Shadow(
+            color = Color.Black,
+            offset = Offset(x = 8.0f, y = 8.0f)
+        )
     ),
     headlineLarge = TextStyle(
         fontFamily = brandFont,
