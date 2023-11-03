@@ -20,7 +20,7 @@ val brandFont = Bangers
 val plainFont = Alegreya
 
 // Set of Material typography styles to start with
-val Typography = Typography(
+val ExploreAucklandTypography = Typography(
     displayLarge = TextStyle(
         fontFamily = brandFont,
         fontWeight = FontWeight.Normal,
