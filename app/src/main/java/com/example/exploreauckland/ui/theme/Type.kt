@@ -18,8 +18,11 @@ val Bangers = FontFamily(
 val Alegreya = FontFamily(
     Font(R.font.alegreya_regular)
 )
+val NanumMyeongjo = FontFamily(
+    Font( resId = R.font.nanummyeongjo_regular, weight = FontWeight.Normal)
+)
 
-val brandFont = Bangers
+val brandFont = NanumMyeongjo
 val plainFont = Alegreya
 
 // Set of Material typography styles to start with
@@ -30,6 +33,11 @@ val ExploreAucklandTypography = Typography(
         fontSize = 57.sp,
         lineHeight = 64.sp,
         letterSpacing = 0.sp,
+        shadow = Shadow(
+            color = Color.Black,
+            offset = Offset(x = 5f, y = 5f),
+            blurRadius = 5f
+        )
     ),
     displayMedium = TextStyle(
         fontFamily = brandFont,
@@ -37,10 +45,6 @@ val ExploreAucklandTypography = Typography(
         fontSize = 45.sp,
         lineHeight = 52.sp,
         letterSpacing = 0.sp,
-        shadow = Shadow(
-            color = Color.Black,
-            offset = Offset(x = 8.0f, y = 8.0f)
-        )
     ),
     displaySmall = TextStyle(
         fontFamily = brandFont,
@@ -48,10 +52,6 @@ val ExploreAucklandTypography = Typography(
         fontSize = 36.sp,
         lineHeight = 44.sp,
         letterSpacing = 0.sp,
-        shadow = Shadow(
-            color = Color.Black,
-            offset = Offset(x = 8.0f, y = 8.0f)
-        )
     ),
     headlineLarge = TextStyle(
         fontFamily = brandFont,

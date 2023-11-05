@@ -1,6 +1,22 @@
 <resources>
     <string name="app_name">Explore Auckland</string>
+    <string name="app_name_two_lines">Explore Auckland</string>
+
     <string name="venue_name_1">Hello Beasty</string>
     <string name="venue_description_1">This modern fusion restaurant is a crowd-pleaser in Auckland. Located at Viaduct Harbour, tuck into a creative meals designed for sharing by Chef Stuard Rogan and team, in a vibrant setting. Expect a delicious selection of New Zealand delights mixed with Korean, Chinese and Japanese twists. Menu highlights include big plates like slow-cooked coastal lamb shoulder, potstickers and buns, wild caught Australian tiger prawns, to name a few. Plus, they have plenty of gluten-free and vegetarian options.</string>
-    <string name="venue_location_1"></string>
+    <string name="venue_location_1">95–97 Customs Street West, Auckland CBD, Auckland 1010, New Zealand</string>
+
+    <string name="venue_name_2">Onslow</string>
+    <string name="venue_description_2">This fine dining eatery is one of the most popular restaurants in Auckland run by MasterChef judge Josh Emett and his wife Helen. The restaurant is dedicated to Emett’s culinary experience worldwide including in London and New York. Enjoy a sophisticated affair of lunch and dinner from North Island Scampi Tagliatelle to 12 Hour Te Mana Lamb Shoulder, drooling desserts, and much more – in a relaxed setting either inside or on the alfresco terrace.</string>
+    <string name="venue_location_2">9 Princes Street, Auckland CBD, Auckland 1010, New Zealand</string>
+
+    <string name="venue_name_3">Hello Beasty</string>
+    <string name="venue_description_3">Hello Beasty</string>
+    <string name="venue_location_3">Hello Beasty</string>
+
+    <string name="venue_name_4">Hello Beasty</string>
+    <string name="venue_description_4">Hello Beasty</string>
+    <string name="venue_location_4">Hello Beasty</string>
+
+
 </resources>

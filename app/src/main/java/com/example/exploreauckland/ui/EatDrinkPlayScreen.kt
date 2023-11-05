@@ -3,6 +3,7 @@ package com.example.exploreauckland.ui
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -17,6 +18,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -32,11 +34,12 @@ fun EatDrinkPlayScreen(
     venueList: List<Venue>,
     modifier: Modifier = Modifier,
 ) {
-    LazyColumn(modifier = modifier) {
+    LazyColumn(modifier = modifier.padding(vertical = 8.dp)) {
         items(venueList, key = {venue -> venue.id}) {
             VenueCard(
                 backgroundImage = it.listItemBackgroundImageResourceId,
-                venueName = it.nameResourceId)
+                venueName = it.nameResourceId
+            )
         }
     }
 }
@@ -57,10 +60,18 @@ fun VenueCard(
     @DrawableRes backgroundImage: Int,
     @StringRes venueName: Int
 ) {
+    val gradient = Brush.verticalGradient(
+        colors = listOf(Color.Transparent, Color.Black),
+        startY = 0f,
+        endY = 350f
+    )
+
     Card (
-        elevation = CardDefaults.cardElevation(defaultElevation = 5.dp),
+        elevation = CardDefaults.cardElevation(defaultElevation = 10.dp),
         shape = RoundedCornerShape(16.dp),
-        modifier = Modifier.fillMaxWidth()
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(8.dp)
     ) {
         Box (
             contentAlignment = Alignment.BottomStart,
@@ -68,16 +79,19 @@ fun VenueCard(
                 .fillMaxWidth()
                 .height(128.dp)
         ) {
-            Image(
-                painter = painterResource(id = backgroundImage),
-                contentDescription = null,
-                contentScale = ContentScale.Crop
-            )
+            Box(modifier = Modifier) {
+                Image(
+                    painter = painterResource(id = backgroundImage),
+                    contentDescription = null,
+                    contentScale = ContentScale.Crop,
+                )
+                Box(modifier = Modifier.matchParentSize().background(gradient))
+            }
             Text(
                 text = stringResource(venueName),
-                style = MaterialTheme.typography.displaySmall,
+                style = MaterialTheme.typography.headlineLarge,
                 color = Color.White,
-                modifier = Modifier.padding(start = 12.dp),
+                modifier = Modifier.padding(start = 12.dp, bottom = 8.dp),
             )
         }
 

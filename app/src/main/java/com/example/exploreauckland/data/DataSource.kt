@@ -14,7 +14,17 @@ object DataSource {
             descriptionResourceId = R.string.venue_description_1,
             listItemBackgroundImageResourceId = R.drawable.venue_1_list_item_image,
             displayVenueImageResourceId = R.drawable.venue_1_display_image
+        ),
+        Venue(
+            id = 2,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_2,
+            locationResourceId = R.string.venue_location_2,
+            descriptionResourceId = R.string.venue_description_2,
+            listItemBackgroundImageResourceId = R.drawable.venue_2_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_2_display_image
         )
+
 
     )
 
