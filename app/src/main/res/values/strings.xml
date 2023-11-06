@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Explore Auckland</string>
-    <string name="app_name_two_lines">Explore Auckland</string>
+    <string name="get_Started">Get Started</string>
 
     <string name="venue_name_1">Hello Beasty</string>
     <string name="venue_description_1">This modern fusion restaurant is a crowd-pleaser in Auckland. Located at Viaduct Harbour, tuck into a creative meals designed for sharing by Chef Stuard Rogan and team, in a vibrant setting. Expect a delicious selection of New Zealand delights mixed with Korean, Chinese and Japanese twists. Menu highlights include big plates like slow-cooked coastal lamb shoulder, potstickers and buns, wild caught Australian tiger prawns, to name a few. Plus, they have plenty of gluten-free and vegetarian options.</string>
@@ -10,13 +10,91 @@
     <string name="venue_description_2">This fine dining eatery is one of the most popular restaurants in Auckland run by MasterChef judge Josh Emett and his wife Helen. The restaurant is dedicated to Emett’s culinary experience worldwide including in London and New York. Enjoy a sophisticated affair of lunch and dinner from North Island Scampi Tagliatelle to 12 Hour Te Mana Lamb Shoulder, drooling desserts, and much more – in a relaxed setting either inside or on the alfresco terrace.</string>
     <string name="venue_location_2">9 Princes Street, Auckland CBD, Auckland 1010, New Zealand</string>
 
-    <string name="venue_name_3">Hello Beasty</string>
-    <string name="venue_description_3">Hello Beasty</string>
-    <string name="venue_location_3">Hello Beasty</string>
+    <string name="venue_name_3">Cotto</string>
+    <string name="venue_description_3">Get cosy with a plate of the best handmade pasta and other affordable Italian dishes at this must-visit restaurant in the CBD. Many dishes are made gluten-free and dairy-free such as the focaccia, lamb ribs, and tiramisu ice cream…so it’s a superb alternative for those on restrictive diets. Be sure to pair it with a stellar cocktail to finish.</string>
+    <string name="venue_location_3">375 Karangahape Road, Auckland CBD, Auckland 1010, New Zealand</string>
 
-    <string name="venue_name_4">Hello Beasty</string>
-    <string name="venue_description_4">Hello Beasty</string>
-    <string name="venue_location_4">Hello Beasty</string>
+    <string name="venue_name_4">Origine</string>
+    <string name="venue_description_4">Situated in the former Saxo + Parole, this beautiful new French restaurant boasts 150 seats overlooking Waitematā waterfront through floor-to-ceiling glass windows. Concept renowned restaurateurs Ben Bayly and Chris Martin, alongside their wives…it’s the perfect place to enjoy the finest French cuisine and feel like you are in France.</string>
+    <string name="venue_location_4">Commercial Bay Level 2/172 Quay Street, Auckland CBD, Auckland 1010</string>
+
+    <string name="venue_name_5">Baduzzi</string>
+    <string name="venue_description_5">This award-winning restaurant is actually one of the best romantic dining spots, serving the finest Italian cuisine, in Auckland. Why not tuck into a large plate of spaghetti pastas and meatballs and sink your sweet tooth into some delicious tiramisu? And if you are extra hungry, opt to share one of the best pizzas from the menu. Definitely, one of the best restaurants in Auckland.</string>
+    <string name="venue_location_5">10–26 Jellicoe Street, North Wharf, Auckland 1010, New Zealand</string>
+
+    <string name="venue_name_6">Mr Hao</string>
+    <string name="venue_description_6">Be transported to Shanghai at one of the best restaurants in Auckland located on Dominion Road. Indulge on a range of authentic Asian flavours such as BBQ seafood grill, numbing chicken, BBQ meat skewers, plates of noodles and lots more at an affordable value.</string>
+    <string name="venue_location_6">365 Dominion Road, Mount Eden, Auckland 1024, New Zealand</string>
+
+    <string name="venue_name_7">Ahi</string>
+    <string name="venue_description_7">This authentic restaurant, located in downtown Auckland, placed on the World’s 50 Best Restaurants list. It incorporates fresh organic local produce and produce grown by the team, with indigenous Māori cooking techniques and Asian influences, to create delicious menus loved by diners. Think BBQ octopus, grilled wagyu bavette, garden tarts, and a stellar list of global wines and spirits to wash it all down with. Perfect for a birthday dinner!</string>
+    <string name="venue_location_7">Commercial Bay Level 2/7 Queen Street, Auckland CBD, Auckland 1010, New Zealand</string>
+
+    <string name="venue_name_8">The Grove</string>
+    <string name="venue_description_8">Another one of the best romantic restaurants for those who love expensive wining and dining. In an upscale setting, try out a 5 or 9-course modern European cuisine meal. Excitingly, they offer personalised degustation dining, so you have freedom in choosing what you want to eat. Certainly, makes a memorable dining experience no matter if it’s a date or with a group.</string>
+    <string name="venue_location_8">Saint Patricks Square, Wyndham Street, Auckland CBD, Auckland 1010, New Zealand</string>
+
+    <string name="venue_name_9">Cassette 9</string>
+    <string name="venue_description_9">Home of the teapots and backpacker nights. Every Tuesday, be in with the chance of winning a skydive, bungy jump, rafting and bus pass in the raffle! There are other themed nights, such as Saturday Sick Disco and Wednesday Teenage Kicks, as well as local indie bands and DJs.</string>
+    <string name="venue_location_9">9 Vulcan LaneAuckland CBD, Auckland 1010</string>
+
+
+
+    <string name="venue_name_11">Ponsonby Social Club</string>
+    <string name="venue_description_11">There’s always some kind of live performance from Tuesdays to Saturdays. Otherwise, you can enjoy a pint with friends in a rather classy spot.</string>
+    <string name="venue_location_11">152 Ponsonby Road, Ponsonby</string>
+
+    <string name="venue_name_12">Hello Beasty</string>
+    <string name="venue_description_12">Hello Beasty</string>
+    <string name="venue_location_12">Hello Beasty</string>
+
+    <string name="venue_name_13">Hello Beasty</string>
+    <string name="venue_description_13">Hello Beasty</string>
+    <string name="venue_location_13">Hello Beasty</string>
+
+    <string name="venue_name_14">Hello Beasty</string>
+    <string name="venue_description_14">Hello Beasty</string>
+    <string name="venue_location_14">Hello Beasty</string>
+
+    <string name="venue_name_15">Hello Beasty</string>
+    <string name="venue_description_15">Hello Beasty</string>
+    <string name="venue_location_15">Hello Beasty</string>
+
+    <string name="venue_name_16">Hello Beasty</string>
+    <string name="venue_description_16">Hello Beasty</string>
+    <string name="venue_location_16">Hello Beasty</string>
+
+    <string name="venue_name_17">Hello Beasty</string>
+    <string name="venue_description_17">Hello Beasty</string>
+    <string name="venue_location_17">Hello Beasty</string>
+
+    <string name="venue_name_18">Hello Beasty</string>
+    <string name="venue_description_18">Hello Beasty</string>
+    <string name="venue_location_18">Hello Beasty</string>
+
+    <string name="venue_name_19">Hello Beasty</string>
+    <string name="venue_description_19">Hello Beasty</string>
+    <string name="venue_location_19">Hello Beasty</string>
+
+    <string name="venue_name_20">Hello Beasty</string>
+    <string name="venue_description_20">Hello Beasty</string>
+    <string name="venue_location_20">Hello Beasty</string>
+
+    <string name="venue_name_21">Hello Beasty</string>
+    <string name="venue_description_21">Hello Beasty</string>
+    <string name="venue_location_21">Hello Beasty</string>
+
+    <string name="venue_name_22">Hello Beasty</string>
+    <string name="venue_description_22">Hello Beasty</string>
+    <string name="venue_location_22">Hello Beasty</string>
+
+    <string name="venue_name_23">Hello Beasty</string>
+    <string name="venue_description_23">Hello Beasty</string>
+    <string name="venue_location_23">Hello Beasty</string>
+
+    <string name="venue_name_24">Hello Beasty</string>
+    <string name="venue_description_24">Hello Beasty</string>
+    <string name="venue_location_24">Hello Beasty</string>
 
 
 </resources>

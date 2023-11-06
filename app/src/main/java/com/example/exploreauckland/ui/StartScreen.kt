@@ -4,10 +4,15 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
+import androidx.compose.material3.Button
+import androidx.compose.material3.Divider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -26,6 +31,7 @@ import com.example.exploreauckland.ui.theme.ExploreAucklandTheme
 @Composable
 fun StartScreen(
     modifier: Modifier = Modifier,
+    onGetStartedClick: () -> Unit
 ) {
     Box(
         contentAlignment = Alignment.Center,
@@ -44,6 +50,7 @@ fun StartScreen(
                 .fillMaxHeight()
                 .padding(bottom = 64.dp)
         ) {
+            Spacer(modifier = Modifier.height(128.dp))
             Text(
                 text = stringResource(R.string.app_name),
                 style = MaterialTheme.typography.displayLarge,
@@ -51,6 +58,18 @@ fun StartScreen(
                 textAlign = TextAlign.Center,
                 color = Color.White
             )
+            Divider(
+                thickness = 2.dp,
+                color = Color.White,
+                modifier = Modifier
+                    .fillMaxWidth(0.8f)
+                    .padding(top = 16.dp, bottom = 16.dp)
+            )
+            Button(
+                onClick = onGetStartedClick
+            ) {
+                Text(text = stringResource(R.string.get_Started))
+            }
         }
     }
 }
@@ -60,6 +79,6 @@ fun StartScreen(
 @Composable
 fun startScreenPreview() {
     ExploreAucklandTheme {
-        StartScreen()
+        StartScreen(onGetStartedClick = {})
     }
 }

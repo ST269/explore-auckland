@@ -13,6 +13,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -33,32 +34,29 @@ import com.example.exploreauckland.ui.theme.ExploreAucklandTheme
 fun EatDrinkPlayScreen(
     venueList: List<Venue>,
     modifier: Modifier = Modifier,
+    onCardClicked: (Venue) -> Unit
 ) {
     LazyColumn(modifier = modifier.padding(vertical = 8.dp)) {
         items(venueList, key = {venue -> venue.id}) {
             VenueCard(
                 backgroundImage = it.listItemBackgroundImageResourceId,
-                venueName = it.nameResourceId
+                venueName = it.nameResourceId,
+                venue = it,
+                onCardClicked = onCardClicked
             )
         }
     }
 }
 
 
-
-@Preview (showBackground = true)
-@Composable
-fun EatDrinkPlayScreenPreview() {
-    ExploreAucklandTheme {
-        EatDrinkPlayScreen(venueList = DataSource.eatVenues)
-    }
-}
-
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun VenueCard(
     modifier: Modifier = Modifier,
+    venue: Venue,
     @DrawableRes backgroundImage: Int,
-    @StringRes venueName: Int
+    @StringRes venueName: Int,
+    onCardClicked: (Venue) -> Unit
 ) {
     val gradient = Brush.verticalGradient(
         colors = listOf(Color.Transparent, Color.Black),
@@ -66,9 +64,10 @@ fun VenueCard(
         endY = 350f
     )
 
-    Card (
+    Card(
         elevation = CardDefaults.cardElevation(defaultElevation = 10.dp),
         shape = RoundedCornerShape(16.dp),
+        onClick = {onCardClicked(venue)},
         modifier = Modifier
             .fillMaxWidth()
             .padding(8.dp)
@@ -95,5 +94,13 @@ fun VenueCard(
             )
         }
 
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun EatDrinkPlayScreenPreview() {
+    ExploreAucklandTheme {
+        EatDrinkPlayScreen(venueList = DataSource.eatVenues, onCardClicked = {})
     }
 }

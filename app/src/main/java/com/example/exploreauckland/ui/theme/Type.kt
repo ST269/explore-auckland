@@ -45,6 +45,12 @@ val ExploreAucklandTypography = Typography(
         fontSize = 45.sp,
         lineHeight = 52.sp,
         letterSpacing = 0.sp,
+        color = Color.White,
+        shadow = Shadow(
+            color = Color.Black,
+            offset = Offset(x = 5f, y = 5f),
+            blurRadius = 5f
+        )
     ),
     displaySmall = TextStyle(
         fontFamily = brandFont,
