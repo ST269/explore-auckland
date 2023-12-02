@@ -2,7 +2,6 @@ package com.example.exploreauckland.ui
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -22,10 +21,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
 import com.example.exploreauckland.data.DataSource
 import com.example.exploreauckland.model.Venue
 import com.example.exploreauckland.ui.theme.ExploreAucklandTheme
@@ -63,7 +62,6 @@ fun VenueCard(
         startY = 0f,
         endY = 350f
     )
-
     Card(
         elevation = CardDefaults.cardElevation(defaultElevation = 10.dp),
         shape = RoundedCornerShape(16.dp),
@@ -79,12 +77,20 @@ fun VenueCard(
                 .height(128.dp)
         ) {
             Box(modifier = Modifier) {
-                Image(
-                    painter = painterResource(id = backgroundImage),
+
+                AsyncImage(
+                    model = backgroundImage,
                     contentDescription = null,
-                    contentScale = ContentScale.Crop,
+                    contentScale = ContentScale.Crop
                 )
-                Box(modifier = Modifier.matchParentSize().background(gradient))
+//                Image(
+//                    painter = painterResource(id = backgroundImage),
+//                    contentDescription = null,
+//                    contentScale = ContentScale.Crop,
+//                )
+                Box(modifier = Modifier
+                    .matchParentSize()
+                    .background(gradient))
             }
             Text(
                 text = stringResource(venueName),

@@ -95,7 +95,152 @@ object DataSource {
             descriptionResourceId = R.string.venue_description_11,
             listItemBackgroundImageResourceId = R.drawable.venue_11_list_item_image,
             displayVenueImageResourceId = R.drawable.venue_11_display_image
+        ),
+        Venue(
+            id = 11,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_6,
+            locationResourceId = R.string.venue_location_6,
+            descriptionResourceId = R.string.venue_description_6,
+            listItemBackgroundImageResourceId = R.drawable.venue_6_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_6_display_image
+        ),
+        Venue(
+            id = 12,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_7,
+            locationResourceId = R.string.venue_location_7,
+            descriptionResourceId = R.string.venue_description_7,
+            listItemBackgroundImageResourceId = R.drawable.venue_7_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_7_display_image
+        ),
+        Venue(
+            id = 13,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_6,
+            locationResourceId = R.string.venue_location_6,
+            descriptionResourceId = R.string.venue_description_6,
+            listItemBackgroundImageResourceId = R.drawable.venue_6_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_6_display_image
+        ),
+        Venue(
+            id = 14,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_7,
+            locationResourceId = R.string.venue_location_7,
+            descriptionResourceId = R.string.venue_description_7,
+            listItemBackgroundImageResourceId = R.drawable.venue_7_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_7_display_image
+        ),
+        Venue(
+            id = 15,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_6,
+            locationResourceId = R.string.venue_location_6,
+            descriptionResourceId = R.string.venue_description_6,
+            listItemBackgroundImageResourceId = R.drawable.venue_6_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_6_display_image
+        ),
+        Venue(
+            id = 16,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_7,
+            locationResourceId = R.string.venue_location_7,
+            descriptionResourceId = R.string.venue_description_7,
+            listItemBackgroundImageResourceId = R.drawable.venue_7_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_7_display_image
+        ),
+        Venue(
+            id = 17,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_6,
+            locationResourceId = R.string.venue_location_6,
+            descriptionResourceId = R.string.venue_description_6,
+            listItemBackgroundImageResourceId = R.drawable.venue_6_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_6_display_image
+        ),
+        Venue(
+            id = 18,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_7,
+            locationResourceId = R.string.venue_location_7,
+            descriptionResourceId = R.string.venue_description_7,
+            listItemBackgroundImageResourceId = R.drawable.venue_7_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_7_display_image
+        ),
+        Venue(
+            id = 19,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_6,
+            locationResourceId = R.string.venue_location_6,
+            descriptionResourceId = R.string.venue_description_6,
+            listItemBackgroundImageResourceId = R.drawable.venue_6_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_6_display_image
+        ),
+        Venue(
+            id = 20,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_7,
+            locationResourceId = R.string.venue_location_7,
+            descriptionResourceId = R.string.venue_description_7,
+            listItemBackgroundImageResourceId = R.drawable.venue_7_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_7_display_image
+        ),
+        Venue(
+            id = 21,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_6,
+            locationResourceId = R.string.venue_location_6,
+            descriptionResourceId = R.string.venue_description_6,
+            listItemBackgroundImageResourceId = R.drawable.venue_6_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_6_display_image
+        ),
+        Venue(
+            id = 22,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_7,
+            locationResourceId = R.string.venue_location_7,
+            descriptionResourceId = R.string.venue_description_7,
+            listItemBackgroundImageResourceId = R.drawable.venue_7_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_7_display_image
+        ),
+        Venue(
+            id = 23,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_6,
+            locationResourceId = R.string.venue_location_6,
+            descriptionResourceId = R.string.venue_description_6,
+            listItemBackgroundImageResourceId = R.drawable.venue_6_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_6_display_image
+        ),
+        Venue(
+            id = 24,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_7,
+            locationResourceId = R.string.venue_location_7,
+            descriptionResourceId = R.string.venue_description_7,
+            listItemBackgroundImageResourceId = R.drawable.venue_7_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_7_display_image
+        ),
+        Venue(
+            id = 25,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_6,
+            locationResourceId = R.string.venue_location_6,
+            descriptionResourceId = R.string.venue_description_6,
+            listItemBackgroundImageResourceId = R.drawable.venue_6_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_6_display_image
+        ),
+        Venue(
+            id = 26,
+            venueType = VenueType.Eat,
+            nameResourceId = R.string.venue_name_7,
+            locationResourceId = R.string.venue_location_7,
+            descriptionResourceId = R.string.venue_description_7,
+            listItemBackgroundImageResourceId = R.drawable.venue_7_list_item_image,
+            displayVenueImageResourceId = R.drawable.venue_7_display_image
         )
+
 
 
     )

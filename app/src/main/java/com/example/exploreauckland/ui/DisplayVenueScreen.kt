@@ -1,6 +1,5 @@
 package com.example.exploreauckland.ui
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -15,11 +14,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
 import com.example.exploreauckland.data.VenueUiState
 import com.example.exploreauckland.ui.theme.ExploreAucklandTheme
 
@@ -35,12 +34,24 @@ fun DisplayVenueScreen(
             contentAlignment = Alignment.BottomCenter,
             modifier = Modifier.fillMaxWidth()
         ) {
-            Image(
-                painter = painterResource(venueUiState.currentVenueImage),
+
+            AsyncImage(
+                model = venueUiState.currentVenueImage,
                 contentDescription = null,
                 contentScale = ContentScale.Crop,
-                modifier = Modifier.fillMaxWidth().heightIn(max = 300.dp)
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(max = 300.dp)
             )
+
+//            Image(
+//                painter = painterResource(venueUiState.currentVenueImage),
+//                contentDescription = null,
+//                contentScale = ContentScale.Crop,
+//                modifier = Modifier
+//                    .fillMaxWidth()
+//                    .heightIn(max = 300.dp)
+//            )
             Text(
                 text = stringResource(venueUiState.currentVenueName),
                 style = MaterialTheme.typography.displayMedium,

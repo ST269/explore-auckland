@@ -26,7 +26,7 @@ import androidx.navigation.navOptions
 import com.example.exploreauckland.R
 import com.example.exploreauckland.data.DataSource
 
-enum class VenueDestinations() {
+enum class VenueDestinations {
     Start,
     Eat,
     Drink,
@@ -64,7 +64,7 @@ fun ExploreAucklandApp(
                 ExploreAucklandBottomAppBar(
                     destinations = TopLevelDestinations.values().asList(),
                     currentScreen = currentScreen,
-                    onNavigateToDestination = { it ->
+                    onNavigateToDestination = {
                         // Nav options so that when the back button is pressed goes back to start destination
                         val navOptions = navOptions {
                             popUpTo(navController.graph.findStartDestination().id) {
